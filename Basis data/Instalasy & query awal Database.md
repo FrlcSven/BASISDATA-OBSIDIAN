@@ -4,7 +4,7 @@
 1. Buka Apk XAMPP
 2. Kemudian klik start pada mysql seperti dibawah ini
 
-![[xampp.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/xampp.png?raw=true)
 
 3. Lalu klik shell pada bagian kanan seperti dibawah ini
 
