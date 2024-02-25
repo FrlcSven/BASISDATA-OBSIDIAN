@@ -47,7 +47,11 @@ Kesimpulannya, perintah ini bertujuan untuk masuk ke server MySQL sebagai penggu
 # Database
 ## Buat Database
 ### query
-Perintah ```CREATE DATABASE nama_database;``` digunakan untuk membuat basis data baru di server MySQL.
+Perintah 
+```mysql
+CREATE nma_DATABASE;
+```
+ nama_database digunakan untuk membuat basis data baru di server MySQL.
 
 Contoh:
 
