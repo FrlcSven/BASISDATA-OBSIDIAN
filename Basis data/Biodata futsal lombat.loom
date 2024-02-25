@@ -1,0 +1,277 @@
+{
+  "model": {
+    "columns": [
+      {
+        "id": "3b362d03-a5e9-4e74-bee1-9b30cf07758a",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Nama",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "25ef6292-e605-402a-a3a3-a17d32a4a8e5",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Posisi",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "005c19b9-d457-4301-a37d-68c1da982e0f",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "Umur",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      },
+      {
+        "id": "ad9ba42e-2c2b-4b95-9c61-a18f2666e3f0",
+        "sortDir": "default",
+        "isVisible": true,
+        "width": "140px",
+        "type": "text",
+        "numberPrefix": "",
+        "numberSuffix": "",
+        "numberSeparator": "",
+        "content": "No Punggung",
+        "numberFormat": "number",
+        "currencyType": "USD",
+        "dateFormat": "mmddyyyy",
+        "dateFormatSeparator": "-",
+        "hour12": true,
+        "includeTime": false,
+        "shouldWrapOverflow": true,
+        "tags": [],
+        "calculationType": "none",
+        "aspectRatio": "unset",
+        "horizontalPadding": "unset",
+        "verticalPadding": "unset",
+        "frontmatterKey": null
+      }
+    ],
+    "rows": [
+      {
+        "id": "6679e17a-8183-45aa-a3da-02d96075d490",
+        "index": 0,
+        "sourceId": null,
+        "creationDateTime": "2024-01-28T00:45:35.428Z",
+        "lastEditedDateTime": "2024-01-28T00:50:08.465Z",
+        "cells": [
+          {
+            "id": "fbb62178-0d84-4346-8755-ab2a3447d695",
+            "columnId": "3b362d03-a5e9-4e74-bee1-9b30cf07758a",
+            "content": "Farhan",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "2daa5118-642e-43bc-8a5c-18633aebe116",
+            "columnId": "25ef6292-e605-402a-a3a3-a17d32a4a8e5",
+            "content": "Flank/anchor",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d005b8ae-d3f2-4ced-8bdd-3f0a3d8d604a",
+            "columnId": "005c19b9-d457-4301-a37d-68c1da982e0f",
+            "content": "16",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "822f260c-9f3d-485a-85cf-ce9a21328bc6",
+            "columnId": "ad9ba42e-2c2b-4b95-9c61-a18f2666e3f0",
+            "content": "06",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "b679b4a3-5e81-477b-8f2c-79f342e0c87e",
+        "index": 1,
+        "sourceId": null,
+        "creationDateTime": "2024-01-28T00:45:36.999Z",
+        "lastEditedDateTime": "2024-01-28T00:53:01.250Z",
+        "cells": [
+          {
+            "id": "4afb28ea-cf98-4433-aae4-a7efd56a713f",
+            "columnId": "3b362d03-a5e9-4e74-bee1-9b30cf07758a",
+            "content": "Radit",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "94a98843-14c1-45ba-8ac8-705065689185",
+            "columnId": "25ef6292-e605-402a-a3a3-a17d32a4a8e5",
+            "content": "Pivot",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "3a6a1171-7205-47d9-b974-77085ae18869",
+            "columnId": "005c19b9-d457-4301-a37d-68c1da982e0f",
+            "content": "16",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "9a564d83-32c9-4268-9d2f-f3a3c708e2f8",
+            "columnId": "ad9ba42e-2c2b-4b95-9c61-a18f2666e3f0",
+            "content": "06",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "5a810bea-8088-446a-b420-8e806d708a13",
+        "index": 2,
+        "sourceId": null,
+        "creationDateTime": "2024-01-28T00:45:38.581Z",
+        "lastEditedDateTime": "2024-01-28T00:53:05.620Z",
+        "cells": [
+          {
+            "id": "010edf68-bdf7-48e4-8106-5e1c707ede12",
+            "columnId": "3b362d03-a5e9-4e74-bee1-9b30cf07758a",
+            "content": "Ilham",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "e9869721-93b9-4a7e-9116-796cf6408338",
+            "columnId": "25ef6292-e605-402a-a3a3-a17d32a4a8e5",
+            "content": "Kiper/anchor",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "d55f0001-bfb3-484a-8f53-ad135c765ac0",
+            "columnId": "005c19b9-d457-4301-a37d-68c1da982e0f",
+            "content": "19",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "c5a3f589-166e-4658-bb98-cac482cfe7e3",
+            "columnId": "ad9ba42e-2c2b-4b95-9c61-a18f2666e3f0",
+            "content": "07",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "be59ba44-496f-4339-ad3f-f6710775dacf",
+        "index": 3,
+        "sourceId": null,
+        "creationDateTime": "2024-01-28T00:45:47.439Z",
+        "lastEditedDateTime": "2024-01-28T00:53:14.673Z",
+        "cells": [
+          {
+            "id": "920f75fa-13ae-4e23-9b81-df080d73f752",
+            "columnId": "3b362d03-a5e9-4e74-bee1-9b30cf07758a",
+            "content": "Putra",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "da09b2f5-7ce0-47df-9398-14ad2af14d19",
+            "columnId": "25ef6292-e605-402a-a3a3-a17d32a4a8e5",
+            "content": "Anchor/pivot",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "6a9ce0ce-1dd8-45b0-b461-e038e8fd3244",
+            "columnId": "005c19b9-d457-4301-a37d-68c1da982e0f",
+            "content": "23",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "f47adccb-39f6-4c03-9e11-6ca968cf6d7c",
+            "columnId": "ad9ba42e-2c2b-4b95-9c61-a18f2666e3f0",
+            "content": "03",
+            "hasValidFrontmatter": null
+          }
+        ]
+      },
+      {
+        "id": "9a442c4a-ff62-4216-a461-baacbbb5f788",
+        "index": 4,
+        "sourceId": null,
+        "creationDateTime": "2024-01-28T00:45:49.571Z",
+        "lastEditedDateTime": "2024-01-28T00:53:23.017Z",
+        "cells": [
+          {
+            "id": "6d516810-25cf-407d-b3f0-eceb20c02153",
+            "columnId": "3b362d03-a5e9-4e74-bee1-9b30cf07758a",
+            "content": "Amar",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "f2cc24f3-7a98-41d3-8a99-95089fe70916",
+            "columnId": "25ef6292-e605-402a-a3a3-a17d32a4a8e5",
+            "content": "Anchor",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "ebf98329-f26e-44b1-b733-aa95a9ee89de",
+            "columnId": "005c19b9-d457-4301-a37d-68c1da982e0f",
+            "content": "16",
+            "hasValidFrontmatter": null
+          },
+          {
+            "id": "5b96a486-65cc-4286-aa49-89f47da7e8a1",
+            "columnId": "ad9ba42e-2c2b-4b95-9c61-a18f2666e3f0",
+            "content": "12",
+            "hasValidFrontmatter": null
+          }
+        ]
+      }
+    ],
+    "filters": [],
+    "sources": [],
+    "settings": {
+      "numFrozenColumns": 1,
+      "showCalculationRow": true
+    },
+    "externalRowOrder": []
+  },
+  "pluginVersion": "8.15.11"
+}
