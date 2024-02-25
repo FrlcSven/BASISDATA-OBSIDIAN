@@ -507,7 +507,7 @@ update pelanggan set no_telp="085657199460" where id_pelanggan="4";
 
 ## Hasil
 
-![[update no telp.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/update%20no%20telp.png?raw=true)
 ## Analisis
 
 `update pelanggan set no_telp="085657199460" where id_pelanggan="4";` :
@@ -533,7 +533,7 @@ delete from pelanggan where id_pelanggan="3";
 
 ## Hasil
 
-![[hapus baris data.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/hapus%20baris%20data.png?raw=true)
 ## Analisis
 
 `delete from pelanggan where id_pelanggan="3";`:
@@ -560,7 +560,7 @@ drop table biodata;
 
 ## Hasil
 
-![[hapus tabel.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/hapus%20tabel.png?raw=true)
 ## Analisis 
 
 `drop table biodata;`:
