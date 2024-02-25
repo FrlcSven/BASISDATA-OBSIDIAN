@@ -51,6 +51,7 @@ Perintah
 ```mysql
 CREATE nma_DATABASE;
 ```
+
  nama_database digunakan untuk membuat basis data baru di server MySQL.
 
 Contoh:
@@ -76,34 +77,42 @@ Kesimpulannya, pernyataan ini menunjukkan bahwa proses pembuatan basis data tela
 
 ## Tampilkan Database
 ### Query
-Perintah `SHOW DATABASES` digunakan pada MySQL untuk menampilkan daftar semua basis data yang ada di server.
+Perintah 
+```mysql
+SHOW DATABASES;
+```
 
-Fungsinya adalah memberikan informasi mengenai basis data yang tersedia di server MySQL. Ketika perintah ini dijalankan, server akan memberikan daftar nama basis data yang dapat diakses. Ini berguna untuk mengetahui basis data mana yang sudah ada dan tersedia untuk digunakan.
+digunakan pada MySQL untuk menampilkan daftar semua basis data yang ada di server.
+
 ### Hasil
 
 ![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/show%20database.png?raw=true)
 
 ### Analisis
 Teks "`SHOW DATABASES;`" merupakan perintah SQL yang digunakan untuk menampilkan daftar semua basis data yang ada di server MySQL.
+Fungsinya adalah memberikan informasi mengenai basis data yang tersedia di server MySQL. Ketika perintah ini dijalankan, server akan memberikan daftar nama basis data yang dapat diakses. Ini berguna untuk mengetahui basis data mana yang sudah ada dan tersedia untuk digunakan.
 
 ### Kesimpulan
 Kesimpulannya, perintah ini digunakan untuk melihat semua basis data yang telah dibuat di server MySQL. Ketika perintah ini dijalankan, server akan merespons dengan menampilkan nama-nama basis data yang tersedia. Hal ini memudahkan pengguna untuk mengetahui basis data apa saja yang sudah ada dalam lingkungan MySQL yang sedang diakses.
 
 ## Hapus Database
 ### Query
-Perintah `DROP nama_DATABASE` digunakan pada MySQL untuk menghapus sebuah basis data beserta seluruh tabel, indeks, dan objek basis data lainnya yang terkait di dalamnya.
+Perintah 
+```mysql
+DROP nama_DATABASE
+```
+
+ digunakan pada MySQL untuk menghapus sebuah basis data beserta seluruh tabel, indeks, dan objek basis data lainnya yang terkait di dalamnya.
 
 Contoh:
 
 DROP x1_rpl_1
 
-Fungsinya adalah untuk menghapus secara permanen sebuah basis data dari server MySQL. Harap berhati-hati saat menggunakan perintah ini, karena setelah dieksekusi, semua data yang terkait dengan basis data tersebut akan dihapus dan tidak dapat dikembalikan. Pastikan bahwa Anda yakin ingin menghapus basis data tersebut sebelum menjalankan perintah DROP DATABASE.
-
 ### Hasil
 ![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/drop%20database.png?raw=true)
 
 ### Analisis
-Teks "DROP DATABASE" adalah perintah SQL yang digunakan untuk menghapus sebuah basis data beserta seluruh tabel dan data yang terkait di dalamnya.
+Teks "DROP DATABASE" adalah perintah SQL yang digunakan untuk menghapus sebuah basis data beserta seluruh tabel dan data yang terkait di dalamnya.Fungsinya adalah untuk menghapus secara permanen sebuah basis data dari server MySQL. Harap berhati-hati saat menggunakan perintah ini, karena setelah dieksekusi, semua data yang terkait dengan basis data tersebut akan dihapus dan tidak dapat dikembalikan. Pastikan bahwa Anda yakin ingin menghapus basis data tersebut sebelum menjalankan perintah DROP DATABASE.
 
 `DROP x1_rpl_1`
 
@@ -114,7 +123,12 @@ Kesimpulannya, perintah ini digunakan dengan hati-hati karena akan menghapus sem
 
 ## Gunakan Database
 ### Query
-Perintah `USE nama_DATABASE;` digunakan pada MySQL untuk beralih ke basis data tertentu, sehingga semua operasi yang dilakukan setelahnya akan berlaku pada basis data tersebut.
+Perintah 
+```mysql
+`USE nama_DATABASE;
+```
+
+digunakan pada MySQL untuk beralih ke basis data tertentu, sehingga semua operasi yang dilakukan setelahnya akan berlaku pada basis data tersebut.
 
 Contoh:
 
@@ -223,7 +237,7 @@ create table biodata(
 ### Hasil
 
 
-![[descibe tabel.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/descibe%20tabel.png?raw=true)
 
 ### Analisis
 Program di atas adalah perintah SQL untuk membuat tabel bernama                "**biodata**" dengan empat kolom. Berikut analisisnya:
@@ -258,7 +272,7 @@ MariaDB [rental_farhan]> show tables;
 +-------------------------+
 ```
 
-![[tampilkan tabel.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/tampilkan%20tabel.png?raw=true)
 
 ## Q & A
 
@@ -298,7 +312,8 @@ insert into pelanggan
 
 ### Hasil
 
-![[contoh buat insert.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/contoh%20buat%20insert.png?raw=true)
+
 ### Analisis
 
 1. `insert into pelanggan;` :
@@ -335,7 +350,7 @@ insert into nama_table
 
 ### Hasil
 
-![[tabel  lebih dari 1.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/tabel%20%20lebih%20dari%201.png?raw=true)
 
 
 ### Analisis
@@ -363,7 +378,7 @@ Kesimpulannya, perintah ini akan menambahkan tiga baris data baru ke dalam tabel
 
 ```mysql
 insert into nama_table
-    (kolom1,kolom2,kolom3,kolom4) values (nilai1,nilai2,nilai3,nilai4)
+    (kolom1,kolom2) values (nilai1,nilai2)
 ```
 
 ### Contoh
@@ -376,7 +391,7 @@ insert into nama_table
 
 ## Hasil
 
-![[menyebut kolom5.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/menyebut%20kolom5.png?raw=true)
 
 ## Analisis
 
@@ -410,7 +425,7 @@ select * from pelanggan;
 
 ## Hasil
 
-![[select seluruh data.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/select%20seluruh%20data.png?raw=true)
 
 ## Analisis
 
@@ -426,7 +441,7 @@ Kesimpulannya,Perintah SELECT * FROM pelanggan; memberikan gambaran keseluruhan 
 ### Struktur
 
 ```mysql
-select nama_kolom1,nama_kolom2,nama_kolom3,nama_kolom4 from nama_table;
+select nama_kolom1,nama_kolom2,nama_kolom_n from nama_table;
 ```
 
 ### Contoh
@@ -437,7 +452,7 @@ select nama_depan from pelanggan;
 
 ## Hasil
 
-![[select data tertentu.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/select%20data%20tertentu.png?raw=true)
 ## Analisis
 
 `select nama_depan from pelanggan;`:
@@ -466,7 +481,7 @@ select * from pelanggan
 
 ## Hasil
 
-![[klausa where.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/klausa%20where%201.png?raw=true)
 ## Analisis
 
 `select * from pelanggan where id_pelanggan=2;`:
