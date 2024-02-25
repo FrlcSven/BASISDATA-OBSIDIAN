@@ -8,11 +8,11 @@
 
 3. Lalu klik shell pada bagian kanan seperti dibawah ini
 
-![[xampp2.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/xampp2.png?raw=true)
 
 4. Sesudah itu ketik mysql -u root -p seperti di bawah ini
 
-![[mysql.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/mysql.png?raw=true)
 
 5. Selesai
 
@@ -21,7 +21,7 @@
 
 https://youtu.be/SWs0j2LzcD4?si=1PEEARq-F55bCQbX
 
-![[tutor yt.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/tutor%20yt.png?raw=true)
 
 
 # Penggunaan awal mysql
@@ -36,7 +36,7 @@ Jadi, secara keseluruhan, perintah ini berfungsi untuk mengakses server MySQL se
 
 ## Hasil
 
-![[h query.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/h%20query.png?raw=true)
 
 ## Analisis
 Teks "mysql -u root -p" merupakan perintah baris perintah (command line) untuk mengakses server MySQL dengan menggunakan akun pengguna "root" dan meminta pengguna untuk memasukkan kata sandi ("-p" menunjukkan bahwa kata sandi akan dimasukkan setelah menekan Enter).
@@ -47,7 +47,7 @@ Kesimpulannya, perintah ini bertujuan untuk masuk ke server MySQL sebagai penggu
 # Database
 ## Buat Database
 ### query
-Perintah `CREATE DATABASE nama_database;` digunakan untuk membuat basis data baru di server MySQL.
+Perintah ```CREATE DATABASE nama_database;``` digunakan untuk membuat basis data baru di server MySQL.
 
 Contoh:
 
@@ -56,7 +56,7 @@ Contoh:
 Fungsinya adalah membuat database dengan nama yang disebutkan setelah kata kunci CREATE DATABASE. Setelah dijalankan, database baru akan dibuat dan dapat digunakan untuk menyimpan tabel, data, dan objek basis data lainnya.
 ### Hasil
 
-![[create database.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/create%20database.png?raw=true)
 
 ### Analisis
 Teks "`Created database`" ini menyatakan bahwa sebuah basis data telah dibuat. Dalam konteks pengelolaan basis data, ini mengindikasikan bahwa pengguna atau sistem telah berhasil membuat suatu basis data baru.
@@ -77,7 +77,7 @@ Perintah `SHOW DATABASES` digunakan pada MySQL untuk menampilkan daftar semua ba
 Fungsinya adalah memberikan informasi mengenai basis data yang tersedia di server MySQL. Ketika perintah ini dijalankan, server akan memberikan daftar nama basis data yang dapat diakses. Ini berguna untuk mengetahui basis data mana yang sudah ada dan tersedia untuk digunakan.
 ### Hasil
 
-![[show database.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/show%20database.png?raw=true)
 
 ### Analisis
 Teks "`SHOW DATABASES;`" merupakan perintah SQL yang digunakan untuk menampilkan daftar semua basis data yang ada di server MySQL.
@@ -96,7 +96,7 @@ DROP x1_rpl_1
 Fungsinya adalah untuk menghapus secara permanen sebuah basis data dari server MySQL. Harap berhati-hati saat menggunakan perintah ini, karena setelah dieksekusi, semua data yang terkait dengan basis data tersebut akan dihapus dan tidak dapat dikembalikan. Pastikan bahwa Anda yakin ingin menghapus basis data tersebut sebelum menjalankan perintah DROP DATABASE.
 
 ### Hasil
-![[drop database.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/drop%20database.png?raw=true)
 
 ### Analisis
 Teks "DROP DATABASE" adalah perintah SQL yang digunakan untuk menghapus sebuah basis data beserta seluruh tabel dan data yang terkait di dalamnya.
@@ -104,8 +104,6 @@ Teks "DROP DATABASE" adalah perintah SQL yang digunakan untuk menghapus sebuah b
 `DROP x1_rpl_1`
 
 DROP adalah query untuk menghapus database dan x1_rpl_1 adalah database yang akan dihapus
-
-
 
 ### Kesimpulan
 Kesimpulannya, perintah ini digunakan dengan hati-hati karena akan menghapus semua informasi yang terkandung dalam basis data yang ditentukan. Pengguna perlu memastikan bahwa mereka benar-benar ingin menghapus basis data tersebut sebelum menjalankan perintah ini, karena data yang dihapus tidak dapat dipulihkan.
@@ -122,7 +120,7 @@ Fungsinya adalah mengubah basis data aktif yang digunakan dalam sesi koneksi MyS
 
 ### Hasil
 
-![[use database.png]]
+![alt text](https://github.com/FrlcSven/BASISDATA-OBSIDIAN/blob/main/ASET%20BASIS%20DATA/use%20database.png?raw=true)
 
 ### Analisis
 Teks "USE nama_DATABASE" adalah perintah SQL yang digunakan untuk beralih ke basis data tertentu. Basis data yang ditentukan akan menjadi basis data aktif untuk sesi koneksi saat itu.
@@ -152,8 +150,6 @@ Beberapa tipe data angka yang umum digunakan pada MySQL antara lain:
 
 - Complex (Bilangan Kompleks): Untuk menyimpan angka kompleks yang terdiri dari bagian real dan imajiner.
 
-![[contoh angka.jpg]]
-
 Dalam contoh ini, INTEGER, FLOAT, DOUBLE, dan DECIMAL adalah tipe data angka yang digunakan untuk kolom-kolom tertentu dalam tabel.
 
 ## Teks
@@ -169,8 +165,6 @@ Beberapa tipe data teks yang umum digunakan pada MySQL antara lain:
 
 - TEXT: Cocok untuk menyimpan teks panjang, seperti paragraf atau dokumen.
 
-![[contoh teks.jpg]]
-
 Dalam contoh ini, CHAR, VARCHAR, dan TEXT adalah tipe data teks yang digunakan untuk kolom-kolom tertentu dalam tabel.
 
 ## Tanggal
@@ -185,8 +179,6 @@ Beberapa tipe data tanggal dan waktu yang umum digunakan pada MySQL antara lain:
 - TIMESTAMP: Mirip dengan DATETIME, tetapi dengan rentang waktu yang lebih kecil dan terkait dengan zona waktu server.
 
 - YEAR: Menyimpan tahun dengan empat digit. (YYYY)
-
-![[contoh tanggal.jpg]]
 
 Dalam contoh ini, DATE, TIME, DATETIME, TIMESTAMP, dan YEAR adalah tipe data yang digunakan untuk kolom-kolom tertentu dalam tabel untuk menyimpan informasi tanggal dan waktu.
 
