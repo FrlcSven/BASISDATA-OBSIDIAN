@@ -170,7 +170,7 @@ Beberapa tipe data angka yang umum digunakan pada MySQL antara lain:
 
 Dalam contoh ini, INTEGER, FLOAT, DOUBLE, dan DECIMAL adalah tipe data angka yang digunakan untuk kolom-kolom tertentu dalam tabel.
 
-![contoh tanggal.jpg](1.jpg)
+![contoh tanggal.jpg](1.png)
 
 ## Teks
 Beberapa tipe data teks yang umum digunakan pada MySQL antara lain:
@@ -187,7 +187,7 @@ Beberapa tipe data teks yang umum digunakan pada MySQL antara lain:
 
 Dalam contoh ini, CHAR, VARCHAR, dan TEXT adalah tipe data teks yang digunakan untuk kolom-kolom tertentu dalam tabel.
 
-![contoh tanggal.jpg](2.jpg)
+![contoh tanggal.jpg](2.png)
 
 ## Tanggal
 Beberapa tipe data tanggal dan waktu yang umum digunakan pada MySQL antara lain:
@@ -204,7 +204,7 @@ Beberapa tipe data tanggal dan waktu yang umum digunakan pada MySQL antara lain:
 
 Dalam contoh ini, DATE, TIME, DATETIME, TIMESTAMP, dan YEAR adalah tipe data yang digunakan untuk kolom-kolom tertentu dalam tabel untuk menyimpan informasi tanggal dan waktu.
 
-![contoh tanggal.jpg](3.jpg)
+![contoh tanggal.jpg](3.png)
 
 ## Boolean
 - tipe data boolean digunakan untuk menyimpan nilai kebenaran, yaitu True (benar) atau False (salah). Tipe data boolean umumnya digunakan dalam kondisi percabangan dan pengambilan keputusan.
