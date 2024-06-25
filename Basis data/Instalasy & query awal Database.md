@@ -170,7 +170,7 @@ Beberapa tipe data angka yang umum digunakan pada MySQL antara lain:
 
 Dalam contoh ini, INTEGER, FLOAT, DOUBLE, dan DECIMAL adalah tipe data angka yang digunakan untuk kolom-kolom tertentu dalam tabel.
 
-![contoh tanggal.jpg](contoh tanggal.jpg)
+![contoh tanggal.jpg](Saved%20Pictures/contoh%20tanggal.jpg)
 
 ## Teks
 Beberapa tipe data teks yang umum digunakan pada MySQL antara lain:
